@@ -1,0 +1,36 @@
+.btn_filter {
+	display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    background: rgb(210, 204, 249);
+    width: 150px;
+
+    &:hover {
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+    }
+
+    &:active{
+    background: red;
+    }
+}
+
+.btn-active_filter {
+	color: blue;
+	display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    background: rgb(210, 204, 249);
+}

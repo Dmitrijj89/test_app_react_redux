@@ -1,0 +1,49 @@
+body {
+    background: rgb(210, 204, 249);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: white-grey;
+    font-size: 20px;
+}
+
+.nav a.active {
+    font-weight: bold;
+    border-bottom: solid grey 3px;
+}
+.merger {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: white-grey;
+}
+.merger > div {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.merger_table{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+	background: #eee;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    padding: 15px;
+    border-radius: 5px;
+}

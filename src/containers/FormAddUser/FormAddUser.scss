@@ -1,0 +1,34 @@
+.formAdd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: white-grey;
+}
+
+.formAdd > div {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 20px;
+}
+
+.formAdd h1 {
+    color: black;
+    text-align: center;
+}
+
+.formAddForm {
+    background: #eee;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+    padding: 7px;
+    box-sizing: border-box;
+}
